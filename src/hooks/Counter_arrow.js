@@ -20,7 +20,7 @@ import { useEffect } from "react";
    return(<div>
     <h3>React demo with useState and useEffect hook</h3>
     <h2>{count}</h2>
-    <button onClick={()=>setCounter(c1+1)}>count {c1}</button>
+    <button onClick={()=>setCounter(c1+1)}>count   {c1}</button>
    </div>)
  }
  export default Counter_arrow;
